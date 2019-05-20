@@ -1,0 +1,39 @@
+.character-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    
+    width: 800px;
+
+    margin: 0 auto;
+}
+
+.character-header-container {
+    background-color: rgb(181, 137, 98, 0.85);
+}
+
+.character-header {
+    margin: 0;
+    padding: 15px 0;
+
+    color: black;
+}
+
+.character-stat-list {
+    width: 300px;
+    height: fit-content;
+
+    padding: 10px 20px;
+    margin-bottom: 50px;
+
+    background-color: hsla(34, 21%, 77%, 0.85);
+}
+
+.character-stat {
+    display: flex;
+    justify-content: space-between;
+
+    color: #481F0D;
+    font-size: .8rem;
+}
